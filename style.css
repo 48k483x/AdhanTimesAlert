@@ -11,6 +11,7 @@ body::-webkit-scrollbar{
 
 #Container{
     width: 100vw;
+    height: 100vh;
     background: linear-gradient(#2b134a , #000);
     display: flex;
     justify-content: center;
