@@ -1,5 +1,5 @@
 function GetSalatName(city){
-    axios.get(`http://api.aladhan.com/v1/timingsByCity?city=${city}&country=Morocco&method=8`)
+    axios.get(`https://api.aladhan.com/v1/timingsByCity?city=${city}&country=Morocco&method=8`)
         .then(response=>{
             const data = response.data.data;
             const timings = data.timings;
